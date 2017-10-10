@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+
+{
+    int g, c , d, u;
+
+    printf("entre valeur  trois cheffer g\n");
+    scanf("%d",&g);
+    if (g>0)
+
+    {
+       c= g/100;
+       d=(g%100)/10;
+       u= g%10 ;
+        printf (" c = %d  d= %d u= %d", c, d, u );
+    }
+    else
+    {
+        printf ("rien ");
+    }
+
+    return 0;
+}
