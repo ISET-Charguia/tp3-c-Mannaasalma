@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a, b,pgcd, rest ,q ;
+
+
+    printf("entre le valeur a");
+    scanf(" %d",&a);
+     printf("entre le valeur b");
+    scanf(" %d",&b);
+
+    if (a>b)
+    {
+
+
+      q =a/b;
+    rest= (q*b)-a;
+    }
+
+    if (rest==0)
+    {
+        pgcd=b;
+    }
+    else
+    {
+        if(rest!=0)
+        {
+            a=b;
+            b=rest;
+        }
+    }
+
+        printf("  rest =%d , pgcd=%d , a=%d ,b=%d",rest, pgcd , a ,b);
+    return 0;
+}
