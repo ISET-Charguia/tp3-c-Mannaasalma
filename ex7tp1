@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{int a , b, q, r ;
+
+    printf("entree valeur b");
+    scanf("%d",&b);
+    printf("entree valeur a");
+    scanf("%d",&a);
+    q = a/b;
+    r = -((q*b)-a);
+    printf("Le quotient =%d , LE reste =%d",q,r);
+    return 0;
+}
