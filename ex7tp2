@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{char car;
+
+    printf("entre le caracteur car \n");
+    scanf("%c",&car);
+
+    if((car>= 'a')&&(car<='z'))
+    {
+        printf("donne le lettre minuscule");
+
+    }
+    else
+    {
+        if ((car>='A')&&(car<='Z'))
+        {
+           printf("donne le une lettre majuscule");
+        }
+    }
+
+if((car>= 0)&&(car<= 999))
+{
+printf("donne le chiffer");
+            }
+
+
+
+
+    return 0;
+}
