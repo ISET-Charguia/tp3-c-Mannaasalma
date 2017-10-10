@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i,j,l,k;
+
+
+
+
+    printf("entre le longueur   ",l);
+    scanf("%d", & l);
+    printf("entre le largeur  ",k);
+    scanf("%d", & k);
+
+    for (i=0;i<l;i++)
+    {
+        for (j=0; j<k ;j++)
+        {
+            printf ("*");
+        }
+        printf ("\n" );
+
+    }
+
+
+    return 0;
+}
