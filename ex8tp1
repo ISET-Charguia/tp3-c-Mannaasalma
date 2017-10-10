@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int j,m,a,d;
+
+    printf("entrez une date\n");
+    scanf("%d",&d);
+    j=d/1000000;
+    m=(d% 1000000)/10000;
+    a=d%10000;
+    printf("Le jour est:%d /Le mois est:%d /Lanne est:%d",j,m,a);
+    return 0;
+}
