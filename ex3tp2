@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int b,a;
+
+    printf("résolution de ax + b = 0\n");
+    printf("entre valeur a");
+    scanf("%d",&a);
+    printf("entre valeur b");
+     scanf("%d",&b);
+
+     if ((a==0 )&&(b==0))
+     {
+         printf(" equation impossible\n");
+
+     }
+    else
+    {
+     printf ("x=  %d" , -b/a );
+    }
+
+    return 0;
+}
