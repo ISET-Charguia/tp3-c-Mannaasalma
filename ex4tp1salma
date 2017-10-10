@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int i=10, x;
+x = i-(i--);
+printf("x = %d i = %d \n",x, i);
+i=10;
+x = i-(--i);
+printf("x = %d i = %d \n",x, i);
+getch(); /* Attente d'une saisie clavier */
+return 0 ;
+}
