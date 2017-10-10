@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int anne ;
+   printf ("saisir le anne ");
+   scanf("%d",&anne);
+   if (((anne%4)==0)&&((anne%100)!=0)&&((anne%400)!=0))
+   {
+       printf("année est bissextile");
+
+   }
+   else
+   {
+       printf("année est non bissextile");
+   }
+    return 0;
+}
