@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+char c;
+c ='A';
+printf("decimal = %d ASCII = %c\n",c,c);
+puts("Pour continuer frapper une touche...");
+getch(); /* Attente d'une saisie clavier */
+return 0 ;
+}
+
+
