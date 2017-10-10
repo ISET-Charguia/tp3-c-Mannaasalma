@@ -1,0 +1,53 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int a,b,c, min,max;
+
+    printf("entre valeur a\n");
+    scanf("%d",&a);
+     printf("entre valeur b\n");
+     scanf("%d",&b);
+      printf("entre valeur c\n");
+      scanf("%d",&c);
+
+if (a>b)
+      {
+        max= a;
+        min=b;
+      }
+else
+      {
+          max=b;
+          min=a;
+      }
+
+
+if (b>c)
+{
+    max=b;
+    min=c;
+}
+
+else
+{
+     max=c;
+ min=b;
+}
+
+    if (a>c)
+    {
+        max=a;
+        min=c;
+    }
+
+else
+{
+     max=c;
+    min=a;
+}
+
+printf(" min= %d  max=%d ", min ,max);
+    return 0;
+}
