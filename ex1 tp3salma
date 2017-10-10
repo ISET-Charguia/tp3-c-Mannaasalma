@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+int main()
+{int n ,f=1;
+printf(" donnéé le valeur de n ");
+scanf("%d",&n);
+   while ( n>1)
+   {
+    f= f*n;
+    n=n-1;
+   }
+    printf ( "donne factoriel=%d " , f);
+    return 0;
+}
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+int main()
+{int n ,f=1, i;
+printf(" donnéé le valeur de n ");
+scanf("%d",&n);
+
+   for ( i=0; i<n ; i++)
+   {
+    f= f*i;
+
+   }
+    printf ( "donne factoriel=%d " , f);
+    return 0;
+}
