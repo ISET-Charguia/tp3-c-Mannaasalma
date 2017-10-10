@@ -1,0 +1,20 @@
+include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int a,s;
+   printf (" entre 1er entier");
+   scanf(" %d",&a);
+   s=a;
+   printf (" entre 2er entier");
+   scanf(" %d",&a);
+   s=s+a;
+   printf (" entre 3er entier");
+   scanf("%d",&a);
+   s=s+a;
+   printf (" entre 4er entier");
+   scanf(" %d",&a);
+   s=s+a;
+   printf("la somme est,s");
+return 0 ;
